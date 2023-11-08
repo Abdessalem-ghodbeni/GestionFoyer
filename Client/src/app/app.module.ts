@@ -6,10 +6,9 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
 import { HomeComponent } from './Pages/home/home.component';
-import { AddFoyerComponent } from './Pages/add-foyer/add-foyer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavBarComponent, HomeComponent, AddFoyerComponent],
+  declarations: [AppComponent, NavBarComponent, HomeComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
