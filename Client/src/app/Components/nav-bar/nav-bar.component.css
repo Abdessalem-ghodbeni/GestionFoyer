@@ -1,0 +1,22 @@
+.custum-btn{
+    margin-right: 10px;
+    border-color: blue;
+    color: blue;
+}
+.logo-nav{
+    height: auto;
+    width: 50px;
+    border-radius: 50px;
+ 
+}
+.nav-title{
+    margin-left: 1.2rem;
+    text-decoration: none;
+    color: blue;
+}
+.custum-link{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
